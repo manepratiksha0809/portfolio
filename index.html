@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Portfolio</title>
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      line-height: 1.7;
+    }
+    nav {
+      padding: 18px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #111c32;
+      position: sticky;
+      top: 0;
+    }
+    nav a, a { color: #67e8f9; text-decoration: none; }
+    nav a { margin-left: 16px; }
+    header {
+      text-align: center;
+      padding: 90px 20px;
+    }
+    h1 { font-size: clamp(2.2rem, 6vw, 4rem); margin-bottom: 8px; }
+    h2 { color: #67e8f9; }
+    .accent { color: #67e8f9; }
+    .btn {
+      display: inline-block;
+      background: #0891b2;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      margin: 10px 5px;
+    }
+    section { padding: 35px 8%; max-width: 1000px; margin: auto; }
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 12px;
+      margin: 14px 0;
+    }
+    .skills { display: flex; flex-wrap: wrap; gap: 10px; }
+    .skills span {
+      background: #1e293b;
+      padding: 8px 14px;
+      border-radius: 20px;
+    }
+    footer { text-align: center; padding: 25px; color: #94a3b8; }
+  </style>
+</head>
+<body>
+  <nav>
+    <strong class="accent">My Portfolio</strong>
+    <div>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header>
+    <p class="accent">HELLO, WORLD! 👋</p>
+    <h1>I'm Your Name</h1>
+    <h2>Aspiring Developer</h2>
+    <p>I build projects, solve problems, and keep learning.</p>
+    <a class="btn" href="#projects">View My Projects</a>
+    <a class="btn" href="#contact">Contact Me</a>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a student and aspiring developer interested in technology
+      and software development. I enjoy learning new skills and
+      building projects that solve real-world problems.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Python</span>
+      <span>GitHub</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="card">
+      <h3>Project One</h3>
+      <p>Describe what your project does and which technologies you used.</p>
+      <a href="https://github.com/">View on GitHub →</a>
+    </div>
+    <div class="card">
+      <h3>Project Two</h3>
+      <p>Add another project, its purpose, and the skills you learned.</p>
+      <a href="https://github.com/">View on GitHub →</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/">My GitHub Profile</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/">My LinkedIn Profile</a></p>
+  </section>
+
+  <footer>
+    <p>© 2026 Your Name. Built with HTML and CSS.</p>
+  </footer>
+</body>
+</html>
